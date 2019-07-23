@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Transfer form</title>
+    <link rel="shortcut icon" href="HatchfulExport-All/favicon.jpg">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/transaction.css">
+    <script src="src/transaction.js">
+    </script>
+
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="container1">
+            <div class="logo_div">
+                <img src="HatchfulExport-All/facebook_cover_photo_1.jpg" alt="logo" class="logo">
+            </div>
+            <div class="navbar_links">
+                <ul class="menu">
+                    <li><a href="#"><i class="fas fa-sign-out-alt"> Logout</i></a></li>
+                    <li><a href="#"><b>N. Petrakiev</b></a></li>
+                    <li><a href="#"><i class="fas fa-cogs"> Settings</i></a></li>
+                    <li><a href="#"><i class="far fa-bell"> Notification</i></a></li>
+                    <li><a href="#"><i class="fas fa-comment-alt"> Messages</i></a></li>
+                    <li><a href="#transaction_table"><i class="fas fa-hand-holding-usd">Transfers</i></a></li>
+                    <li><a href="dashboard.html"><i class="fas fa-home"> Home</i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="form">
+            <h2><i class="fas fa-hand-holding-usd"> New transaction</i></h2>
+            <div class="transaction_form">
+                <label for="fromIBAN"><b><i class="fas fa-university"> IBAN:</i></b></label>
+                <select name="IBANone" id="IBANone">
+                <option value="BG10RNDK12345678910121" >BG10RNDK12345678910121</option>
+                <option value="BG10RNDK13467925891234" >BG10RNDK13467925891234</option>
+            </select>
+                <label for="toIBAN"><b><i class="fas fa-university"> IBAN:</i></b></label>
+                <input type="text" name="lname" id="IBANtwo">
+                <label for="amount"><b><i class="fas fa-money-bill-alt"> Amount:</i></b></label>
+                <input type="text" name="amount" id="amount">
+                <label for="currency"><b> <i class="fas fa-dollar-sign"> Currency:</i></b></label>
+                <select name="currency" id="currency">
+            <option value="BGN">BGN</option>
+            <option value="EUR">EUR</option>
+            <option value="USD">USD</option>
+        </select>
+                <label for="for_what"><b><i class="fas fa-comment"> Reason:</i></b></label>
+                <input type="text" name="text">
+                <label for="date"><b><i class="fas fa-calendar-day"> Date of execution:</i></b></label>
+                <input type="date" name="date" id="date">
+                <button onclick="addRow();">Submit</button>
+            </div>
+        </div>
+        <hr>
+        <div class="transaction_table" id="transaction_table">
+            <h2><i class="fas fa-file-invoice-dollar"> Last transactions</i></h2>
+            <table border="1">
+
+                <tr>
+                    <th>Guarantor</th>
+                    <th>Recipient</th>
+                    <th>Amount</th>
+                    <th>Currency</th>
+                    <th>Date</th>
+                </tr>
+
+                <tr>
+                    <td>BG10RNDK12345678910121</td>
+                    <td>BG10RNDK13467925891234</td>
+                    <td>10</td>
+                    <td>BGN</td>
+                    <td>2016-07-20</td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+
+
+</body>
+
+<footer>
+    <p>&copy <b><i>RND bank 2019</i></b></p>
+    <p><i>For your futute.</i></p>
+</footer>
+
+</html>

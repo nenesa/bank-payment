@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home page</title>
+    <link rel="shortcut icon" href="HatchfulExport-All/favicon.jpg">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="container1">
+            <div class="logo_div">
+                <img src="HatchfulExport-All/facebook_cover_photo_1.jpg" alt="logo" class="logo">
+            </div>
+            <div class="navbar_links">
+                <ul class="menu">
+
+                    <li><a href="#"><i class="fas fa-sign-out-alt"> Logout</i></a></li>
+                    <li><a href="#"><b>N. Petrakiev</b></a></li>
+                    <li><a href="#"><i class="fas fa-cogs"> Settings</i></a></li>
+                    <li><a href="#"><i class="far fa-bell"> Notification</i></a></li>
+                    <li><a href="#"><i class="fas fa-comment-alt"> Messages</i></a></a>
+                    </li>
+                    <li><a href="transaction form.html#transaction_table"><i class="fas fa-hand-holding-usd">Transfers</i></a></li>
+                    <li><a href="dashboard.html"><i class="fas fa-home"> Home</i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="user_activities">
+            <ul class="menu_for_user">
+                <li><a href="transaction form.html">New transfer</a></li>
+                <li><a href="#">Pay bills and taxes</a></li>
+                <li><a href="#accounts">Accounts</a></li>
+                <li><a href="#deposit">Deposits</a></li>
+                <li><a href="#credits">Credits</a></li>
+                <li><a href="#cards">Cards</a></li>
+                <li><a href="#">Services</a></li>
+            </ul>
+        </div>
+        <div class="user_info">
+            <h2><i class="fas fa-id-card"> Bank client information:</i></h2>
+            <div class="card">
+                <div class="personal">
+                    <table class="user_info_table">
+                        <tr>
+                            <th>Name</th>
+                            <th>ID</th>
+                            <th>E-mail</th>
+                            <th>Phone</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                Neno Vencislavov Petrakiev
+                            </td>
+                            <td>XXXXXXXXXX</td>
+                            <td>
+                                nenopetrakiev@gmail.com
+                            </td>
+                            <td>
+                                +35989XXXXXXX
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <hr id="accounts">
+        <div class="accounts">
+            <h2><i class="fas fa-file-invoice-dollar"> Accounts</i></h2>
+            <table class="label">
+                <tr>
+                    <td>
+                        <p>IBAN: BG10RNDK12345678910121</p>
+                    </td>
+                    <td>
+                        Currency: BGN
+                    </td>
+                </tr>
+            </table>
+            <table class="account_money">
+                <tr>
+                    <th>Net available balance</th>
+                    <th>Opening balance</th>
+                    <th>Current balance</th>
+                    <th>Credit limit</th>
+                    <th>Credit limit utlized</th>
+                    <th>Blocked amount</th>
+                    <th>Blocked amount - card transactions</th>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="netValue">1056.36</p>
+                    </td>
+                    <td>
+                        <p id="openedBalance">1056.36</p>
+                    </td>
+                    <td>
+                        <p id="currentBalance">1056.36</p>
+                    </td>
+                    <td>
+                        <p id="creditLimit">0.00</p>
+                    </td>
+                    <td>
+                        <p id="utlized">0.00</p>
+                    </td>
+                    <td>
+                        <p id="blocked">0.00</p>
+                    </td>
+                    <td>
+                        <p id="Bl_a-card_tr">0.00</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <hr id="deposit">
+        <div class="deposit">
+            <h2><i class="fas fa-wallet"> Deposits</i></h2>
+            <div class="user_deposit">
+                <table class="user_deposit_table">
+                    <tr>
+                        <th>Account</th>
+                        <th>Currency</th>
+                        <th>Available balance</th>
+                        <th>Acquired intrest</th>
+                        <th>Maturity date</th>
+                        <th>Actions</th>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;">IBAN: BG10RNDK13467925891234</td>
+                        <td class="euro">EUR</td>
+                        <td class="money1">100.25</td>
+                        <td class="money1">0.00</td>
+                        <td class="date_for_end">05/07/19
+                        </td>
+                        <td style="text-align: center;">
+                            <a href="#"><i class="fas fa-plus-circle"></i></a>
+                            <a href="#"><i class="fas fa-receipt"></i></a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+        <hr id="credits">
+        <div class="credits">
+            <h2><i class="fas fa-coins"> Credits</i></h2>
+            <div class="user_credit">
+                <table class="user_credit_table">
+                    <tr>
+                        <td class="first"><b>IBAN</b></td>
+                        <td>BG10RNDK98765432195173</td>
+                    </tr>
+                    <tr>
+                        <td class="first"><b>Type of credit</b></td>
+                        <td>Customized</td>
+                    </tr>
+                    <tr>
+                        <td class="first"><b>Credit amount and Currency</b></td>
+                        <td>1000 BGN</td>
+                    </tr>
+                    <tr>
+                        <td class="first"><b>Interest rate</b></td>
+                        <td>4% per month</td>
+                    </tr>
+                    <tr>
+                        <td class="first"><b>APE</b></td>
+                        <td>1.98%</td>
+                    </tr>
+                    <tr>
+                        <td class="first"><b>Mounts for paying</b></td>
+                        <td>9 mounth</td>
+                    </tr>
+                    <tr>
+                        <td class="first"><b>Sum for back</b></td>
+                        <td id="sum"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <hr id="cards">
+        <div class="cards">
+            <h2><i class="fas fa-credit-card"> Cards</i></h2>
+            <h4>You do not have cards!</h4>
+            <p><b><i>If you want to request new card press <a href="#">here</a>.</i></b></p>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <p>&copy <b><i>RND bank 2019</i></b></p>
+    <p><i>For your futute.</i></p>
+</footer>
+
+</html>

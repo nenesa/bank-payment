@@ -1,0 +1,248 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+}
+
+hr {
+    width: 90%;
+    border-collapse: collapse;
+    border: 1.2px solid black;
+}
+
+.container1 {
+    width: 100%;
+    margin: 0 auto;
+    background: rgb(104, 116, 155);
+    position: fixed;
+}
+
+.navbar {
+    width: 100%;
+    overflow: hidden;
+    height: 70px;
+    line-height: 70px;
+}
+
+.logo {
+    height: 60px;
+    width: 140px;
+    padding: 5px;
+    float: left;
+}
+
+.menu {
+    float: right;
+}
+
+.menu li {
+    float: right;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    padding: 1px;
+    text-align: center;
+    list-style: none;
+}
+
+.menu li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.container2 {
+    width: 90%;
+    margin: 0 auto;
+    height: 90%;
+    background: white;
+}
+
+.menu_for_user {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(106, 137, 165);
+}
+
+.menu_for_user>li {
+    background-color: #f1f1f1;
+    width: 150px;
+    margin: 15px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+    list-style: none;
+}
+
+.menu_for_user>li a {
+    text-decoration: none;
+}
+
+.menu_for_user>li:hover {
+    background-color: rgb(204, 204, 204);
+}
+
+.user_info>h2 {
+    padding-left: 50px;
+}
+
+.personal {
+    padding-bottom: 30px;
+}
+
+.personal th,
+.personal td {
+    border: 2px solid black;
+    text-align: center;
+}
+
+.personal th {
+    background-color: #dddddd;
+    height: 30px;
+}
+
+.personal td {
+    height: 26px;
+}
+
+.user_info_table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+}
+
+.accounts h2 {
+    padding-left: 50px;
+}
+
+.accounts {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.accounts th,
+.accounts td {
+    border: 2px solid black;
+}
+
+.account_money {
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+}
+
+.account_money td {
+    padding: 0px 10px;
+    text-align: right;
+}
+
+.account_money th {
+    background-color: #dddddd;
+}
+
+.label th,
+.label td {
+    border: 2px solid black;
+    background-color: beige;
+    padding-left: 10px;
+}
+
+.label {
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+.deposit h2 {
+    padding-left: 50px;
+}
+
+.deposit {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.user_deposit th,
+.user_deposit td {
+    border: 2px solid black;
+}
+
+.user_deposit_table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+}
+
+.user_deposit_table td {
+    height: 26px;
+}
+
+.user_deposit_table .euro {
+    text-align: center;
+}
+
+.user_deposit_table .money1 {
+    padding: 0px 10px;
+    text-align: right;
+}
+
+.user_deposit_table .date_for_end {
+    text-align: center;
+}
+
+.user_deposit_table th {
+    background-color: #dddddd;
+    height: 30px;
+}
+
+.credits h2 {
+    padding-left: 50px;
+}
+
+.credits {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.user_credit th,
+.user_credit td {
+    border: 2px solid black;
+}
+
+.user_credit_table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+}
+
+.user_credit_table td {
+    height: 30px;
+    padding: 0px 10px;
+}
+
+.user_credit_table td:nth-child(odd) {
+    background-color: #dddddd;
+}
+
+.cards {
+    padding: 40px 0px 40px 0px;
+}
+
+.cards h2 {
+    padding-left: 50px;
+}
+
+.cards h4,
+.cards p {
+    padding: 5px 80px;
+}
+
+footer {
+    margin: auto;
+    height: 80px;
+    background-color: rgb(104, 116, 155);
+    text-align: center;
+    padding: 10px;
+    font-size: 17px;
+}

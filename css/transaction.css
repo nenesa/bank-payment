@@ -1,0 +1,83 @@
+.form {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+}
+
+.form>h2 {
+    padding-left: 50px;
+}
+
+.transaction_form {
+    width: 50%;
+    margin: auto;
+}
+
+button {
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[type=text],
+[type=number] {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+label {
+    margin-bottom: 10px;
+    padding: 10px;
+    display: block;
+}
+
+.additional input {
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: auto;
+}
+
+.transaction_table {
+    width: 80%;
+    margin: auto;
+    padding: 40px;
+}
+
+.transaction_table>h2 {
+    padding-left: 50px;
+}
+
+table {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+td {
+    padding: 20px;
+}
+
+td,
+th {
+    border: 1px solid black;
+}
+
+th {
+    height: 50px;
+    background-color: #dddddd
+}
